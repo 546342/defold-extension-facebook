@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="{{android.package}}">
+    <uses-sdk android:minSdkVersion="{{android.minimum_sdk_version}}"
+              android:targetSdkVersion="{{android.target_sdk_version}}"/>
+    <application>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="fb{{facebook.app_id}}"/>
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="{{facebook.client_token}}"/>
+        <meta-data android:name="com.facebook.sdk.AutoInitEnabled" android:value="false"/>
+        <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled" android:value="true"/>
+        <meta-data android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled" android:value="true"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

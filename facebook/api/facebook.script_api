@@ -1,0 +1,28 @@
+- name: facebook
+  type: table
+  desc: Functions for interacting with Facebook SDK
+
+  members:
+
+#*****************************************************************************************************
+
+  - name: start_sdk
+    type: function
+
+#*****************************************************************************************************
+
+  - name: set_auto_log_enabled
+    type: function
+
+    parameters:
+      - name: is_enabled
+        type: boolean
+
+#*****************************************************************************************************
+
+  - name: set_is_debug_enabled
+    type: function
+
+    parameters:
+      - name: is_enabled
+        type: boolean

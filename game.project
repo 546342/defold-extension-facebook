@@ -1,0 +1,5 @@
+[project]
+title = Facebook
+
+[library]
+include_dirs = facebook

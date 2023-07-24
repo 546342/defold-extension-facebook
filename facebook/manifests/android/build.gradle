@@ -1,3 +1,7 @@
+repositories {
+	mavenCentral()
+}
+
 dependencies {
 	implementation 'com.facebook.android:facebook-android-sdk:12.1.0'
 }
